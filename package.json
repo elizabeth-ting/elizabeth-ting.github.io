@@ -1,0 +1,23 @@
+{
+  "name": "alcoholismglobally",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:html": "node src/siteGenerator.js",
+    "compile": "npm run compile:html",
+    "build": "npm run compile",
+    "deploy": "git add . && git commit -m 'Publishing website' && git push origin main",
+    "publish": "npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elizabeth-ting/AlcoholismGlobally.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elizabeth-ting/AlcoholismGlobally/issues"
+  },
+  "homepage": "https://github.com/elizabeth-ting/AlcoholismGlobally#readme"
+}
