@@ -1,150 +1,213 @@
+<!doctype html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  
+    <title>MA vs. USA</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="css/yaycss.css" rel="stylesheet"> <!--link to css-->
+  <link href="https://fonts.googleapis.com/css?family=Georgia" rel="stylesheet">
+ <script src="https://cdn.plot.ly/plotly-2.7.0.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
 </head>
 
 <body>
+  <div class = "jumbotron">
+  <h1>Alcoholism in the United States</h1>
+  <h2>A look into drinking across the United States</h2>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="#">Alcoholism</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <ul class="navbar-nav mr-auto">
+
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
+    </li>
+
+    <li class="nav-item active">
+      <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+    </li>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        States
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        
+          <a class="dropdown-item" href="AL.html"> AL </a>
+        
+          <a class="dropdown-item" href="AK.html"> AK </a>
+        
+          <a class="dropdown-item" href="AZ.html"> AZ </a>
+        
+          <a class="dropdown-item" href="AR.html"> AR </a>
+        
+          <a class="dropdown-item" href="CA.html"> CA </a>
+        
+          <a class="dropdown-item" href="CO.html"> CO </a>
+        
+          <a class="dropdown-item" href="CT.html"> CT </a>
+        
+          <a class="dropdown-item" href="DE.html"> DE </a>
+        
+          <a class="dropdown-item" href="FL.html"> FL </a>
+        
+          <a class="dropdown-item" href="GA.html"> GA </a>
+        
+          <a class="dropdown-item" href="HI.html"> HI </a>
+        
+          <a class="dropdown-item" href="ID.html"> ID </a>
+        
+          <a class="dropdown-item" href="IL.html"> IL </a>
+        
+          <a class="dropdown-item" href="IN.html"> IN </a>
+        
+          <a class="dropdown-item" href="IA.html"> IA </a>
+        
+          <a class="dropdown-item" href="KS.html"> KS </a>
+        
+          <a class="dropdown-item" href="KY.html"> KY </a>
+        
+          <a class="dropdown-item" href="LA.html"> LA </a>
+        
+          <a class="dropdown-item" href="ME.html"> ME </a>
+        
+          <a class="dropdown-item" href="MD.html"> MD </a>
+        
+          <a class="dropdown-item" href="MA.html"> MA </a>
+        
+          <a class="dropdown-item" href="MI.html"> MI </a>
+        
+          <a class="dropdown-item" href="MN.html"> MN </a>
+        
+          <a class="dropdown-item" href="MS.html"> MS </a>
+        
+          <a class="dropdown-item" href="MO.html"> MO </a>
+        
+          <a class="dropdown-item" href="MT.html"> MT </a>
+        
+          <a class="dropdown-item" href="NE.html"> NE </a>
+        
+          <a class="dropdown-item" href="NV.html"> NV </a>
+        
+          <a class="dropdown-item" href="NH.html"> NH </a>
+        
+          <a class="dropdown-item" href="NJ.html"> NJ </a>
+        
+          <a class="dropdown-item" href="NM.html"> NM </a>
+        
+          <a class="dropdown-item" href="NY.html"> NY </a>
+        
+          <a class="dropdown-item" href="NC.html"> NC </a>
+        
+          <a class="dropdown-item" href="ND.html"> ND </a>
+        
+          <a class="dropdown-item" href="OH.html"> OH </a>
+        
+          <a class="dropdown-item" href="OK.html"> OK </a>
+        
+          <a class="dropdown-item" href="OR.html"> OR </a>
+        
+          <a class="dropdown-item" href="PA.html"> PA </a>
+        
+          <a class="dropdown-item" href="RI.html"> RI </a>
+        
+          <a class="dropdown-item" href="SC.html"> SC </a>
+        
+          <a class="dropdown-item" href="SD.html"> SD </a>
+        
+          <a class="dropdown-item" href="TN.html"> TN </a>
+        
+          <a class="dropdown-item" href="TX.html"> TX </a>
+        
+          <a class="dropdown-item" href="UT.html"> UT </a>
+        
+          <a class="dropdown-item" href="VT.html"> VT </a>
+        
+          <a class="dropdown-item" href="VA.html"> VA </a>
+        
+          <a class="dropdown-item" href="WA.html"> WA </a>
+        
+          <a class="dropdown-item" href="WV.html"> WV </a>
+        
+          <a class="dropdown-item" href="WI.html"> WI </a>
+        
+          <a class="dropdown-item" href="WY.html"> WY </a>
+        
+      </div>
+    </li>
+  </ul>
+</div>
+</nav>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">index <span class="sr-only">(current)</span></a>
-        </li>
-
-        <li class="nav-item active">
-          <a class="nav-link" href="about.html">about <span class="sr-only">(current)</span></a>
-        </li>
-
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            
-              <a class="dropdown-item" href="AL.html"> AL </a>
-            
-              <a class="dropdown-item" href="AK.html"> AK </a>
-            
-              <a class="dropdown-item" href="AZ.html"> AZ </a>
-            
-              <a class="dropdown-item" href="AR.html"> AR </a>
-            
-              <a class="dropdown-item" href="CA.html"> CA </a>
-            
-              <a class="dropdown-item" href="CO.html"> CO </a>
-            
-              <a class="dropdown-item" href="CT.html"> CT </a>
-            
-              <a class="dropdown-item" href="DE.html"> DE </a>
-            
-              <a class="dropdown-item" href="FL.html"> FL </a>
-            
-              <a class="dropdown-item" href="GA.html"> GA </a>
-            
-              <a class="dropdown-item" href="HI.html"> HI </a>
-            
-              <a class="dropdown-item" href="ID.html"> ID </a>
-            
-              <a class="dropdown-item" href="IL.html"> IL </a>
-            
-              <a class="dropdown-item" href="IN.html"> IN </a>
-            
-              <a class="dropdown-item" href="IA.html"> IA </a>
-            
-              <a class="dropdown-item" href="KS.html"> KS </a>
-            
-              <a class="dropdown-item" href="KY.html"> KY </a>
-            
-              <a class="dropdown-item" href="LA.html"> LA </a>
-            
-              <a class="dropdown-item" href="ME.html"> ME </a>
-            
-              <a class="dropdown-item" href="MD.html"> MD </a>
-            
-              <a class="dropdown-item" href="MA.html"> MA </a>
-            
-              <a class="dropdown-item" href="MI.html"> MI </a>
-            
-              <a class="dropdown-item" href="MN.html"> MN </a>
-            
-              <a class="dropdown-item" href="MS.html"> MS </a>
-            
-              <a class="dropdown-item" href="MO.html"> MO </a>
-            
-              <a class="dropdown-item" href="MT.html"> MT </a>
-            
-              <a class="dropdown-item" href="NE.html"> NE </a>
-            
-              <a class="dropdown-item" href="NV.html"> NV </a>
-            
-              <a class="dropdown-item" href="NH.html"> NH </a>
-            
-              <a class="dropdown-item" href="NJ.html"> NJ </a>
-            
-              <a class="dropdown-item" href="NM.html"> NM </a>
-            
-              <a class="dropdown-item" href="NY.html"> NY </a>
-            
-              <a class="dropdown-item" href="NC.html"> NC </a>
-            
-              <a class="dropdown-item" href="ND.html"> ND </a>
-            
-              <a class="dropdown-item" href="OH.html"> OH </a>
-            
-              <a class="dropdown-item" href="OK.html"> OK </a>
-            
-              <a class="dropdown-item" href="OR.html"> OR </a>
-            
-              <a class="dropdown-item" href="PA.html"> PA </a>
-            
-              <a class="dropdown-item" href="RI.html"> RI </a>
-            
-              <a class="dropdown-item" href="SC.html"> SC </a>
-            
-              <a class="dropdown-item" href="SD.html"> SD </a>
-            
-              <a class="dropdown-item" href="TN.html"> TN </a>
-            
-              <a class="dropdown-item" href="TX.html"> TX </a>
-            
-              <a class="dropdown-item" href="UT.html"> UT </a>
-            
-              <a class="dropdown-item" href="VT.html"> VT </a>
-            
-              <a class="dropdown-item" href="VA.html"> VA </a>
-            
-              <a class="dropdown-item" href="WA.html"> WA </a>
-            
-              <a class="dropdown-item" href="WV.html"> WV </a>
-            
-              <a class="dropdown-item" href="WI.html"> WI </a>
-            
-              <a class="dropdown-item" href="WY.html"> WY </a>
-            
-          </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <h2 style="color: #54278f"><b><i>State: </i>MA</b></h2>
     </div>
-  </nav>
+  </div>
 
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      
+      
+      
+      
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <p>In the state of MA, the binge drinking rate is 18.7%, which constitutes a higher binge drinking rate than  the United States average of 17.2%.</p>
+      </div>
+    </div>
+  <div class="container-fluid">
+    <div id="myGraph"></div>
+  </div>
 
-<p>micros generated</p>
+  <script>
+    var graph = [
+    {
+      x: ['State: MA', 'US Average'],
+      y: [18.7, 17.2],
+      type: 'bar',
+      text: [18.7, 17.2].map(String),
+      width: [.25, .25],
+      textposition: 'auto',
+      hoverinfo: 'none',
+      marker: {
+        color: ['rgba(84, 39, 143, 1)', 'rgba(118, 107, 177, 1)']
+      }
+    }
+    ]
+    var layout = {
+      title: 'Binge Drinking Prevalence in MA vs. USA',
+      yaxis: {
+        title: 'Binge Drinking Population Percentage',
+        gridcolor: "rgba(150, 150, 150, 100)"
+      },
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)"
+  }
+  Plotly.newPlot('myGraph', graph, layout, {staticPlot: true});
+  </script>
+  <br><br><br><br><br>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<div class="container-fluid">
+<footer>
+  Our group used data from the <a href="https://www.cdc.gov/alcohol/data-stats.htm"> Centers for Disease Control and Prevention</a>! We used it to explore alcoholism in the United States.
+</footer>
+</div>
+
 </body>
+</html>
+

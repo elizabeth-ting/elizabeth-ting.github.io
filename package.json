@@ -4,20 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:html": ,
-    "compile": "npm run compile:html",
-    "build": "node src/siteGenerator.js",
-    "deploy": "git add . && git commit -m 'Publishing website' && git push origin main",
-    "publish": "npm run deploy"
+    "prebuild": "node src/prebuild.js",
+    "build": "npm run prebuild && node src/siteGenerator.js && npm run postbuild",
+    "postbuild": "open http://localhost:3000 && node server.js",
+    "deploy": "git add build && git commit -m 'Publishing website' && git push",
+    "publish": "npm run deploy && npm run production:start",
+    "production:start": "git open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elizabeth-ting/AlcoholismGlobally.git"
   },
-  "author": "",
+  "author": "Aidan Cohen and Elizabeth Ting",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/elizabeth-ting/AlcoholismGlobally/issues"
   },
-  "homepage": "https://github.com/elizabeth-ting/AlcoholismGlobally#readme"
+  "homepage": "https://github.com/elizabeth-ting/AlcoholismGlobally#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jquery": "^3.6.0",
+    "plotly.js": "^2.7.0",
+    "plotly.js-dist": "^2.7.0",
+    "plotly.js-dist-min": "^2.7.0"
+  }
 }

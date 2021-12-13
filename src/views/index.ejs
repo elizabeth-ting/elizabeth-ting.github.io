@@ -1,50 +1,18 @@
-<head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
+<%- include('header.ejs'); %>
+<%- include('navbar.ejs'); %>
 
-<body>
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" data-bs-toggle="dropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">index <span class="sr-only">(current)</span></a>
-        </li>
-
-        <li class="nav-item active">
-          <a class="nav-link" href="about.html">about <span class="sr-only">(current)</span></a>
-        </li>
+<h1><b>Alcoholism in the United States</b></h1>
+<p>In our project, we decided to explore alcohol consumption within the US in order to understand which states have the highest and lowest alcoholism rates. We thought that this topic was important to learn about as we thought alcoholism was quite overlooked in the US, but is a major problem as excessive alcohol use can increase risk for many health problems, such as Alzheimer’s or liver failure. The map below shows both the intensity as well as the prevalence of binge drinking among adults in the United States in 2015. Note that the prevalence of binge drinkers means the amount of alcoholics (as defined in our about page) per state divided by the state's population, and the intensity of binge drinking is how many drinks on average binge drinkers drink per night. </p>
+<p>Some things we noticed:</p>
+<p> 1. North Dakota had the highest prevalence of binge drinking with 24.9% of the population. It also had very high intensity. Here, the two graphs seem to correlate. However, this was not the case for every state. </p>
+<p> 2. Interesting to see that there is no correlation between prevalence and intensity. A state can have a lot of binge-drinkers, but they don't drink a lot of alcohol on average. The converse is also possible. </p>
+<p> 3. The minimum prevalence was 10.9%, which is 1/10 of the total population of the state. This seems like a large number of people, but it's important to remember that the actual number will rely on population size of the state. ND has the highest percentage, but in terms of actual number of binge drinkers, actually falls pretty low compared to a state like CA, which has about 6,598,170 alcoholics (prevalence * population size)</p>
 
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" href="#">
-            Dropdown
-          </a>
-          <div class="dropdown-menu">
-            <% for (let i = 0; i<data.length; i++){%>
-              <a class="dropdown-item" href="<%-data[i].name%>.html"%>> <%- data[i].name%> </a>
-            <%}%>
-      </div>
-      <!--<form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>-->
-    </div>
-  </nav>
+<div id ="prevalence"></div>
+<script src="js/drinkPrevalence.js"></script>
 
-  <img src="../Blank_US_Map_(states_only).svg"/>
+<div id ="myDiv"></div>
+<script src="js/graph.js"></script>
 
-<p>basic stuff -austin</p>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+<%- include ('footer.ejs');  %>
