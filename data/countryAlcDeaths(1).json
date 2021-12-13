@@ -1,0 +1,1148 @@
+[
+  {
+    "name": "Entity",
+    "abbreviation": "Code",
+    "year": "Year",
+    "deathrate": "\"Indicator:Alcohol-attributable fractions"
+  },
+  {
+    "name": "Afghanistan",
+    "abbreviation": "AFG",
+    "year": "2012",
+    "deathrate": "0.7"
+  },
+  {
+    "name": "Albania",
+    "abbreviation": "ALB",
+    "year": "2012",
+    "deathrate": "2.8"
+  },
+  {
+    "name": "Algeria",
+    "abbreviation": "DZA",
+    "year": "2012",
+    "deathrate": "0.9"
+  },
+  {
+    "name": "Andorra",
+    "abbreviation": "AND",
+    "year": "2012",
+    "deathrate": "3.9"
+  },
+  {
+    "name": "Angola",
+    "abbreviation": "AGO",
+    "year": "2012",
+    "deathrate": "3.2"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "abbreviation": "ATG",
+    "year": "2012",
+    "deathrate": "2.2"
+  },
+  {
+    "name": "Argentina",
+    "abbreviation": "ARG",
+    "year": "2012",
+    "deathrate": "5"
+  },
+  {
+    "name": "Armenia",
+    "abbreviation": "ARM",
+    "year": "2012",
+    "deathrate": "2.5"
+  },
+  {
+    "name": "Australia",
+    "abbreviation": "AUS",
+    "year": "2012",
+    "deathrate": "3.2"
+  },
+  {
+    "name": "Austria",
+    "abbreviation": "AUT",
+    "year": "2012",
+    "deathrate": "3.8"
+  },
+  {
+    "name": "Azerbaijan",
+    "abbreviation": "AZE",
+    "year": "2012",
+    "deathrate": "2.4"
+  },
+  {
+    "name": "Bahamas",
+    "abbreviation": "BHS",
+    "year": "2012",
+    "deathrate": "3.1"
+  },
+  {
+    "name": "Bahrain",
+    "abbreviation": "BHR",
+    "year": "2012",
+    "deathrate": "0.8"
+  },
+  {
+    "name": "Bangladesh",
+    "abbreviation": "BGD",
+    "year": "2012",
+    "deathrate": "0.6"
+  },
+  {
+    "name": "Barbados",
+    "abbreviation": "BRB",
+    "year": "2012",
+    "deathrate": "3.3"
+  },
+  {
+    "name": "Belarus",
+    "abbreviation": "BLR",
+    "year": "2012",
+    "deathrate": "34.7"
+  },
+  {
+    "name": "Belgium",
+    "abbreviation": "BEL",
+    "year": "2012",
+    "deathrate": "4.5"
+  },
+  {
+    "name": "Belize",
+    "abbreviation": "BLZ",
+    "year": "2012",
+    "deathrate": "6.8"
+  },
+  {
+    "name": "Benin",
+    "abbreviation": "BEN",
+    "year": "2012",
+    "deathrate": "1.8"
+  },
+  {
+    "name": "Bhutan",
+    "abbreviation": "BTN",
+    "year": "2012",
+    "deathrate": "1.2"
+  },
+  {
+    "name": "Bolivia",
+    "abbreviation": "BOL",
+    "year": "2012",
+    "deathrate": "4.6"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "abbreviation": "BIH",
+    "year": "2012",
+    "deathrate": "4.1"
+  },
+  {
+    "name": "Botswana",
+    "abbreviation": "BWA",
+    "year": "2012",
+    "deathrate": "3.9"
+  },
+  {
+    "name": "Brazil",
+    "abbreviation": "BRA",
+    "year": "2012",
+    "deathrate": "6.4"
+  },
+  {
+    "name": "Brunei",
+    "abbreviation": "BRN",
+    "year": "2012",
+    "deathrate": "1.3"
+  },
+  {
+    "name": "Bulgaria",
+    "abbreviation": "BGR",
+    "year": "2012",
+    "deathrate": "5"
+  },
+  {
+    "name": "Burkina Faso",
+    "abbreviation": "BFA",
+    "year": "2012",
+    "deathrate": "3.4"
+  },
+  {
+    "name": "Burundi",
+    "abbreviation": "BDI",
+    "year": "2012",
+    "deathrate": "4.4"
+  },
+  {
+    "name": "Cambodia",
+    "abbreviation": "KHM",
+    "year": "2012",
+    "deathrate": "5"
+  },
+  {
+    "name": "Cameroon",
+    "abbreviation": "CMR",
+    "year": "2012",
+    "deathrate": "4.3"
+  },
+  {
+    "name": "Canada",
+    "abbreviation": "CAN",
+    "year": "2012",
+    "deathrate": "3.4"
+  },
+  {
+    "name": "Cape Verde",
+    "abbreviation": "CPV",
+    "year": "2012",
+    "deathrate": "3.6"
+  },
+  {
+    "name": "Central African Republic",
+    "abbreviation": "CAF",
+    "year": "2012",
+    "deathrate": "1.8"
+  },
+  {
+    "name": "Chad",
+    "abbreviation": "TCD",
+    "year": "2012",
+    "deathrate": "2.3"
+  },
+  {
+    "name": "Chile",
+    "abbreviation": "CHL",
+    "year": "2012",
+    "deathrate": "6.3"
+  },
+  {
+    "name": "China",
+    "abbreviation": "CHN",
+    "year": "2012",
+    "deathrate": "6.3"
+  },
+  {
+    "name": "Colombia",
+    "abbreviation": "COL",
+    "year": "2012",
+    "deathrate": "4.4"
+  },
+  {
+    "name": "Comoros",
+    "abbreviation": "COM",
+    "year": "2012",
+    "deathrate": "0.7"
+  },
+  {
+    "name": "Congo",
+    "abbreviation": "COG",
+    "year": "2012",
+    "deathrate": "2.2"
+  },
+  {
+    "name": "Cook Islands",
+    "abbreviation": "COK",
+    "year": "2012",
+    "deathrate": "6.1"
+  },
+  {
+    "name": "Costa Rica",
+    "abbreviation": "CRI",
+    "year": "2012",
+    "deathrate": "3.6"
+  },
+  {
+    "name": "Cote d'Ivoire",
+    "abbreviation": "CIV",
+    "year": "2012",
+    "deathrate": "3.6"
+  },
+  {
+    "name": "Croatia",
+    "abbreviation": "HRV",
+    "year": "2012",
+    "deathrate": "5.6"
+  },
+  {
+    "name": "Cuba",
+    "abbreviation": "CUB",
+    "year": "2012",
+    "deathrate": "2.9"
+  },
+  {
+    "name": "Cyprus",
+    "abbreviation": "CYP",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "Czechia",
+    "abbreviation": "CZE",
+    "year": "2012",
+    "deathrate": "5.8"
+  },
+  {
+    "name": "Democratic Republic of Congo",
+    "abbreviation": "COD",
+    "year": "2012",
+    "deathrate": "2"
+  },
+  {
+    "name": "Denmark",
+    "abbreviation": "DNK",
+    "year": "2012",
+    "deathrate": "4.8"
+  },
+  {
+    "name": "Djibouti",
+    "abbreviation": "DJI",
+    "year": "2012",
+    "deathrate": "2"
+  },
+  {
+    "name": "Dominica",
+    "abbreviation": "DMA",
+    "year": "2012",
+    "deathrate": "3.7"
+  },
+  {
+    "name": "Dominican Republic",
+    "abbreviation": "DOM",
+    "year": "2012",
+    "deathrate": "4.1"
+  },
+  {
+    "name": "Ecuador",
+    "abbreviation": "ECU",
+    "year": "2012",
+    "deathrate": "5"
+  },
+  {
+    "name": "Egypt",
+    "abbreviation": "EGY",
+    "year": "2012",
+    "deathrate": "0.8"
+  },
+  {
+    "name": "El Salvador",
+    "abbreviation": "SLV",
+    "year": "2012",
+    "deathrate": "5.8"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "abbreviation": "GNQ",
+    "year": "2012",
+    "deathrate": "2.4"
+  },
+  {
+    "name": "Eritrea",
+    "abbreviation": "ERI",
+    "year": "2012",
+    "deathrate": "0.6"
+  },
+  {
+    "name": "Estonia",
+    "abbreviation": "EST",
+    "year": "2012",
+    "deathrate": "21.4"
+  },
+  {
+    "name": "Eswatini",
+    "abbreviation": "SWZ",
+    "year": "2012",
+    "deathrate": "3.3"
+  },
+  {
+    "name": "Ethiopia",
+    "abbreviation": "ETH",
+    "year": "2012",
+    "deathrate": "3.2"
+  },
+  {
+    "name": "Fiji",
+    "abbreviation": "FJI",
+    "year": "2012",
+    "deathrate": "1.4"
+  },
+  {
+    "name": "Finland",
+    "abbreviation": "FIN",
+    "year": "2012",
+    "deathrate": "6.4"
+  },
+  {
+    "name": "France",
+    "abbreviation": "FRA",
+    "year": "2012",
+    "deathrate": "5.3"
+  },
+  {
+    "name": "Gabon",
+    "abbreviation": "GAB",
+    "year": "2012",
+    "deathrate": "5.5"
+  },
+  {
+    "name": "Gambia",
+    "abbreviation": "GMB",
+    "year": "2012",
+    "deathrate": "2.5"
+  },
+  {
+    "name": "Georgia",
+    "abbreviation": "GEO",
+    "year": "2012",
+    "deathrate": "4.6"
+  },
+  {
+    "name": "Germany",
+    "abbreviation": "DEU",
+    "year": "2012",
+    "deathrate": "4.4"
+  },
+  {
+    "name": "Ghana",
+    "abbreviation": "GHA",
+    "year": "2012",
+    "deathrate": "3.4"
+  },
+  {
+    "name": "Greece",
+    "abbreviation": "GRC",
+    "year": "2012",
+    "deathrate": "3.9"
+  },
+  {
+    "name": "Grenada",
+    "abbreviation": "GRD",
+    "year": "2012",
+    "deathrate": "4.8"
+  },
+  {
+    "name": "Guatemala",
+    "abbreviation": "GTM",
+    "year": "2012",
+    "deathrate": "5.3"
+  },
+  {
+    "name": "Guinea",
+    "abbreviation": "GIN",
+    "year": "2012",
+    "deathrate": "1"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "abbreviation": "GNB",
+    "year": "2012",
+    "deathrate": "1.8"
+  },
+  {
+    "name": "Guyana",
+    "abbreviation": "GUY",
+    "year": "2012",
+    "deathrate": "6"
+  },
+  {
+    "name": "Haiti",
+    "abbreviation": "HTI",
+    "year": "2012",
+    "deathrate": "2.9"
+  },
+  {
+    "name": "Honduras",
+    "abbreviation": "HND",
+    "year": "2012",
+    "deathrate": "3.2"
+  },
+  {
+    "name": "Hungary",
+    "abbreviation": "HUN",
+    "year": "2012",
+    "deathrate": "6.7"
+  },
+  {
+    "name": "Iceland",
+    "abbreviation": "ISL",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "India",
+    "abbreviation": "IND",
+    "year": "2012",
+    "deathrate": "5.4"
+  },
+  {
+    "name": "Indonesia",
+    "abbreviation": "IDN",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "Iran",
+    "abbreviation": "IRN",
+    "year": "2012",
+    "deathrate": "0.8"
+  },
+  {
+    "name": "Iraq",
+    "abbreviation": "IRQ",
+    "year": "2012",
+    "deathrate": "0.4"
+  },
+  {
+    "name": "Ireland",
+    "abbreviation": "IRL",
+    "year": "2012",
+    "deathrate": "4.8"
+  },
+  {
+    "name": "Israel",
+    "abbreviation": "ISR",
+    "year": "2012",
+    "deathrate": "1.1"
+  },
+  {
+    "name": "Italy",
+    "abbreviation": "ITA",
+    "year": "2012",
+    "deathrate": "1.6"
+  },
+  {
+    "name": "Jamaica",
+    "abbreviation": "JAM",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "Japan",
+    "abbreviation": "JPN",
+    "year": "2012",
+    "deathrate": "3.2"
+  },
+  {
+    "name": "Jordan",
+    "abbreviation": "JOR",
+    "year": "2012",
+    "deathrate": "0.4"
+  },
+  {
+    "name": "Kazakhstan",
+    "abbreviation": "KAZ",
+    "year": "2012",
+    "deathrate": "9.2"
+  },
+  {
+    "name": "Kenya",
+    "abbreviation": "KEN",
+    "year": "2012",
+    "deathrate": "2.6"
+  },
+  {
+    "name": "Kiribati",
+    "abbreviation": "KIR",
+    "year": "2012",
+    "deathrate": "2"
+  },
+  {
+    "name": "Kuwait",
+    "abbreviation": "KWT",
+    "year": "2012",
+    "deathrate": "1.1"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "abbreviation": "KGZ",
+    "year": "2012",
+    "deathrate": "5.8"
+  },
+  {
+    "name": "Laos",
+    "abbreviation": "LAO",
+    "year": "2012",
+    "deathrate": "4.9"
+  },
+  {
+    "name": "Latvia",
+    "abbreviation": "LVA",
+    "year": "2012",
+    "deathrate": "24.4"
+  },
+  {
+    "name": "Lebanon",
+    "abbreviation": "LBN",
+    "year": "2012",
+    "deathrate": "1.5"
+  },
+  {
+    "name": "Lesotho",
+    "abbreviation": "LSO",
+    "year": "2012",
+    "deathrate": "3"
+  },
+  {
+    "name": "Liberia",
+    "abbreviation": "LBR",
+    "year": "2012",
+    "deathrate": "3"
+  },
+  {
+    "name": "Libya",
+    "abbreviation": "LBY",
+    "year": "2012",
+    "deathrate": "0.3"
+  },
+  {
+    "name": "Lithuania",
+    "abbreviation": "LTU",
+    "year": "2012",
+    "deathrate": "30.9"
+  },
+  {
+    "name": "Luxembourg",
+    "abbreviation": "LUX",
+    "year": "2012",
+    "deathrate": "4.9"
+  },
+  {
+    "name": "Madagascar",
+    "abbreviation": "MDG",
+    "year": "2012",
+    "deathrate": "2.4"
+  },
+  {
+    "name": "Malawi",
+    "abbreviation": "MWI",
+    "year": "2012",
+    "deathrate": "1.7"
+  },
+  {
+    "name": "Malaysia",
+    "abbreviation": "MYS",
+    "year": "2012",
+    "deathrate": "1.7"
+  },
+  {
+    "name": "Maldives",
+    "abbreviation": "MDV",
+    "year": "2012",
+    "deathrate": "1.9"
+  },
+  {
+    "name": "Mali",
+    "abbreviation": "MLI",
+    "year": "2012",
+    "deathrate": "0.9"
+  },
+  {
+    "name": "Malta",
+    "abbreviation": "MLT",
+    "year": "2012",
+    "deathrate": "3"
+  },
+  {
+    "name": "Mauritania",
+    "abbreviation": "MRT",
+    "year": "2012",
+    "deathrate": "0.6"
+  },
+  {
+    "name": "Mauritius",
+    "abbreviation": "MUS",
+    "year": "2012",
+    "deathrate": "3.9"
+  },
+  {
+    "name": "Mexico",
+    "abbreviation": "MEX",
+    "year": "2012",
+    "deathrate": "6.8"
+  },
+  {
+    "name": "Micronesia (country)",
+    "abbreviation": "FSM",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "Moldova",
+    "abbreviation": "MDA",
+    "year": "2012",
+    "deathrate": "33.1"
+  },
+  {
+    "name": "Mongolia",
+    "abbreviation": "MNG",
+    "year": "2012",
+    "deathrate": "10.5"
+  },
+  {
+    "name": "Morocco",
+    "abbreviation": "MAR",
+    "year": "2012",
+    "deathrate": "1.1"
+  },
+  {
+    "name": "Mozambique",
+    "abbreviation": "MOZ",
+    "year": "2012",
+    "deathrate": "1.3"
+  },
+  {
+    "name": "Myanmar",
+    "abbreviation": "MMR",
+    "year": "2012",
+    "deathrate": "2"
+  },
+  {
+    "name": "Namibia",
+    "abbreviation": "NAM",
+    "year": "2012",
+    "deathrate": "6.9"
+  },
+  {
+    "name": "Nauru",
+    "abbreviation": "NRU",
+    "year": "2012",
+    "deathrate": "3.4"
+  },
+  {
+    "name": "Nepal",
+    "abbreviation": "NPL",
+    "year": "2012",
+    "deathrate": "2.9"
+  },
+  {
+    "name": "Netherlands",
+    "abbreviation": "NLD",
+    "year": "2012",
+    "deathrate": "2.7"
+  },
+  {
+    "name": "New Zealand",
+    "abbreviation": "NZL",
+    "year": "2012",
+    "deathrate": "2.8"
+  },
+  {
+    "name": "Nicaragua",
+    "abbreviation": "NIC",
+    "year": "2012",
+    "deathrate": "6.4"
+  },
+  {
+    "name": "Niger",
+    "abbreviation": "NER",
+    "year": "2012",
+    "deathrate": "0.3"
+  },
+  {
+    "name": "Nigeria",
+    "abbreviation": "NGA",
+    "year": "2012",
+    "deathrate": "4.2"
+  },
+  {
+    "name": "Niue",
+    "abbreviation": "NIU",
+    "year": "2012",
+    "deathrate": "5.4"
+  },
+  {
+    "name": "North Korea",
+    "abbreviation": "PRK",
+    "year": "2012",
+    "deathrate": "4.6"
+  },
+  {
+    "name": "North Macedonia",
+    "abbreviation": "MKD",
+    "year": "2012",
+    "deathrate": "2.8"
+  },
+  {
+    "name": "Norway",
+    "abbreviation": "NOR",
+    "year": "2012",
+    "deathrate": "2"
+  },
+  {
+    "name": "Oman",
+    "abbreviation": "OMN",
+    "year": "2012",
+    "deathrate": "0.8"
+  },
+  {
+    "name": "Pakistan",
+    "abbreviation": "PAK",
+    "year": "2012",
+    "deathrate": "0.5"
+  },
+  {
+    "name": "Palau",
+    "abbreviation": "PLW",
+    "year": "2012",
+    "deathrate": "4.6"
+  },
+  {
+    "name": "Panama",
+    "abbreviation": "PAN",
+    "year": "2012",
+    "deathrate": "5.6"
+  },
+  {
+    "name": "Papua New Guinea",
+    "abbreviation": "PNG",
+    "year": "2012",
+    "deathrate": "3.1"
+  },
+  {
+    "name": "Paraguay",
+    "abbreviation": "PRY",
+    "year": "2012",
+    "deathrate": "6.3"
+  },
+  {
+    "name": "Peru",
+    "abbreviation": "PER",
+    "year": "2012",
+    "deathrate": "6.6"
+  },
+  {
+    "name": "Philippines",
+    "abbreviation": "PHL",
+    "year": "2012",
+    "deathrate": "5.2"
+  },
+  {
+    "name": "Poland",
+    "abbreviation": "POL",
+    "year": "2012",
+    "deathrate": "7"
+  },
+  {
+    "name": "Portugal",
+    "abbreviation": "PRT",
+    "year": "2012",
+    "deathrate": "5.8"
+  },
+  {
+    "name": "Qatar",
+    "abbreviation": "QAT",
+    "year": "2012",
+    "deathrate": "3.1"
+  },
+  {
+    "name": "Romania",
+    "abbreviation": "ROU",
+    "year": "2012",
+    "deathrate": "8.9"
+  },
+  {
+    "name": "Russia",
+    "abbreviation": "RUS",
+    "year": "2012",
+    "deathrate": "30.5"
+  },
+  {
+    "name": "Rwanda",
+    "abbreviation": "RWA",
+    "year": "2012",
+    "deathrate": "5.6"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "abbreviation": "KNA",
+    "year": "2012",
+    "deathrate": "3.7"
+  },
+  {
+    "name": "Saint Lucia",
+    "abbreviation": "LCA",
+    "year": "2012",
+    "deathrate": "4.3"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "abbreviation": "VCT",
+    "year": "2012",
+    "deathrate": "3.5"
+  },
+  {
+    "name": "Samoa",
+    "abbreviation": "WSM",
+    "year": "2012",
+    "deathrate": "2"
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "abbreviation": "STP",
+    "year": "2012",
+    "deathrate": "3.5"
+  },
+  {
+    "name": "Saudi Arabia",
+    "abbreviation": "SAU",
+    "year": "2012",
+    "deathrate": "0.5"
+  },
+  {
+    "name": "Senegal",
+    "abbreviation": "SEN",
+    "year": "2012",
+    "deathrate": "1"
+  },
+  {
+    "name": "Serbia",
+    "abbreviation": "SRB",
+    "year": "2012",
+    "deathrate": "4.4"
+  },
+  {
+    "name": "Seychelles",
+    "abbreviation": "SYC",
+    "year": "2012",
+    "deathrate": "4.7"
+  },
+  {
+    "name": "Sierra Leone",
+    "abbreviation": "SLE",
+    "year": "2012",
+    "deathrate": "4.5"
+  },
+  {
+    "name": "Singapore",
+    "abbreviation": "SGP",
+    "year": "2012",
+    "deathrate": "2.2"
+  },
+  {
+    "name": "Slovakia",
+    "abbreviation": "SVK",
+    "year": "2012",
+    "deathrate": "7.7"
+  },
+  {
+    "name": "Slovenia",
+    "abbreviation": "SVN",
+    "year": "2012",
+    "deathrate": "7.9"
+  },
+  {
+    "name": "Solomon Islands",
+    "abbreviation": "SLB",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "Somalia",
+    "abbreviation": "SOM",
+    "year": "2012",
+    "deathrate": "0.3"
+  },
+  {
+    "name": "South Africa",
+    "abbreviation": "ZAF",
+    "year": "2012",
+    "deathrate": "6.4"
+  },
+  {
+    "name": "South Korea",
+    "abbreviation": "KOR",
+    "year": "2012",
+    "deathrate": "7.5"
+  },
+  {
+    "name": "South Sudan",
+    "abbreviation": "SSD",
+    "year": "2012",
+    "deathrate": "2.2"
+  },
+  {
+    "name": "Spain",
+    "abbreviation": "ESP",
+    "year": "2012",
+    "deathrate": "3.6"
+  },
+  {
+    "name": "Sri Lanka",
+    "abbreviation": "LKA",
+    "year": "2012",
+    "deathrate": "5.8"
+  },
+  {
+    "name": "Sudan",
+    "abbreviation": "SDN",
+    "year": "2012",
+    "deathrate": "2.9"
+  },
+  {
+    "name": "Suriname",
+    "abbreviation": "SUR",
+    "year": "2012",
+    "deathrate": "4.2"
+  },
+  {
+    "name": "Sweden",
+    "abbreviation": "SWE",
+    "year": "2012",
+    "deathrate": "3.3"
+  },
+  {
+    "name": "Switzerland",
+    "abbreviation": "CHE",
+    "year": "2012",
+    "deathrate": "3.6"
+  },
+  {
+    "name": "Syria",
+    "abbreviation": "SYR",
+    "year": "2012",
+    "deathrate": "0.7"
+  },
+  {
+    "name": "Tajikistan",
+    "abbreviation": "TJK",
+    "year": "2012",
+    "deathrate": "3.3"
+  },
+  {
+    "name": "Tanzania",
+    "abbreviation": "TZA",
+    "year": "2012",
+    "deathrate": "4.1"
+  },
+  {
+    "name": "Thailand",
+    "abbreviation": "THA",
+    "year": "2012",
+    "deathrate": "6.8"
+  },
+  {
+    "name": "Timor",
+    "abbreviation": "TLS",
+    "year": "2012",
+    "deathrate": "1.2"
+  },
+  {
+    "name": "Togo",
+    "abbreviation": "TGO",
+    "year": "2012",
+    "deathrate": "1.5"
+  },
+  {
+    "name": "Tonga",
+    "abbreviation": "TON",
+    "year": "2012",
+    "deathrate": "1.1"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "abbreviation": "TTO",
+    "year": "2012",
+    "deathrate": "3.4"
+  },
+  {
+    "name": "Tunisia",
+    "abbreviation": "TUN",
+    "year": "2012",
+    "deathrate": "1.7"
+  },
+  {
+    "name": "Turkey",
+    "abbreviation": "TUR",
+    "year": "2012",
+    "deathrate": "1.3"
+  },
+  {
+    "name": "Turkmenistan",
+    "abbreviation": "TKM",
+    "year": "2012",
+    "deathrate": "4.9"
+  },
+  {
+    "name": "Tuvalu",
+    "abbreviation": "TUV",
+    "year": "2012",
+    "deathrate": "2.2"
+  },
+  {
+    "name": "Uganda",
+    "abbreviation": "UGA",
+    "year": "2012",
+    "deathrate": "5"
+  },
+  {
+    "name": "Ukraine",
+    "abbreviation": "UKR",
+    "year": "2012",
+    "deathrate": "34.4"
+  },
+  {
+    "name": "United Arab Emirates",
+    "abbreviation": "ARE",
+    "year": "2012",
+    "deathrate": "6.8"
+  },
+  {
+    "name": "United Kingdom",
+    "abbreviation": "GBR",
+    "year": "2012",
+    "deathrate": "3.4"
+  },
+  {
+    "name": "United States",
+    "abbreviation": "USA",
+    "year": "2012",
+    "deathrate": "3.2"
+  },
+  {
+    "name": "Uruguay",
+    "abbreviation": "URY",
+    "year": "2012",
+    "deathrate": "2.9"
+  },
+  {
+    "name": "Uzbekistan",
+    "abbreviation": "UZB",
+    "year": "2012",
+    "deathrate": "4.9"
+  },
+  {
+    "name": "Vanuatu",
+    "abbreviation": "VUT",
+    "year": "2012",
+    "deathrate": "1.6"
+  },
+  {
+    "name": "Venezuela",
+    "abbreviation": "VEN",
+    "year": "2012",
+    "deathrate": "10.8"
+  },
+  {
+    "name": "Vietnam",
+    "abbreviation": "VNM",
+    "year": "2012",
+    "deathrate": "8.3"
+  },
+  {
+    "name": "Yemen",
+    "abbreviation": "YEM",
+    "year": "2012",
+    "deathrate": "0.5"
+  },
+  {
+    "name": "Zambia",
+    "abbreviation": "ZMB",
+    "year": "2012",
+    "deathrate": "2.1"
+  },
+  {
+    "name": "Zimbabwe",
+    "abbreviation": "ZWE",
+    "year": "2012",
+    "deathrate": "2.9"
+  }
+]

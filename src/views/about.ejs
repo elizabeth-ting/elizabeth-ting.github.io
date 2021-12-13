@@ -1,0 +1,98 @@
+<%- include('header.ejs'); %>
+<%- include('navbar.ejs'); %>
+
+    <h1><b>About Alcoholism</b></h1>
+
+      <h2> Key Terms</h2>
+      <p>The CDC defines excessive alcohol use in two forms. </p>
+      <p>The first is <b>binge drinking</b>, which is drinking 5 or more drinks on an occasion for men or 4 or more drinks on an occasion for women.</p>
+      <p> The second is or <b>heavy drinking</b>, which is drinking 15 or more drinks per week for men or 8 or more drinks per week for women. Excessive alcohol consumption is associated with an increased risk of many health problems, such as liver disease and unintentional injuries.</p>
+      <p>There is also <b>macrodata,</b> which is data describing a large territory. Here, the macrodata is the United States.</p>
+      <p>Finally, <b>microdata,</b> which is data that describes a smaller territory. Here, the microdata is a specific state.</p>
+      <br></br>
+
+
+
+      <h2>LoFi wireframe sketches</h2>
+      <h3>Aidan's macro-summary</h3>
+      <img src="images/aidan_macro.jpeg">
+      <br></br>
+      <p><b>understandability: </b> The map legend, title, and instructions at the bottom allows users to understand what the map is trying to understand. However, because of the lack of color, it is a bit hard visualize how it is going to look like once completed. Since it’s only a sketch, though, it’s fine for now. </p>
+      <p><b>achievability: </b> This map will be very achievable using Plotly, as Plotly is able to take in data from a JSON or CSV file and depict it on a map/graph of your choosing. In this case a chloropleth map will be used.</p>
+      <p><b>signifiers: </b> There is a helpful footer at the bottom stating that you can click on the countries to bring you to its micropage. Adding a highlight around a country when you hover over it might make this more clear </p>
+      <p><b>mappings: </b> This sketch shows the relationship between alcohol consumption band geographic location.</p>
+      <p><b>perceptability: </b> Currently, it is a little hard to see since color has not been added yet. However, we are planning on using colors and maybe adding patterns in order to help those who are visually impaired with color blindness.  </p>
+      <br></br>
+
+
+
+      <h3>Aidan's micro-summary</h3>
+      <img src="images/aidan_micro.jpeg">
+      <br></br>
+      <p><b>understandability:</b>The map is appropriately labeled with a title and legend, adding to the understandability of the sketch. However, it is a little unclear as to what exactly Aidan is trying to convey because of the lack of color. (Again, not a big deal because its only a sketch)</p>
+      <p><b>achievability: </b> This will be achieveable using Plotly, which can convert data into a visual infographic, such as a map or graph. A chloropleth map will be used here. </p>
+      <p><b>signifiers: </b>Not many signifiers showing if anything is clickable or not. </p>
+      <p><b>mappings: </b>The sketch depicts the relationship between alcohol consumption per person based on state in the US</p>
+      <p><b>perceptability: </b>A little hard to perceive because of the lack of colors. We are planning on using colors and maybe adding patterns in order to help those who are visually impaired with color blindness.  </p>
+      <br></br>
+
+
+
+      <h3>Elizabeth's macro-summary</h3>
+      <img src="images/elizabeth_macro.jpeg">
+      <br></br>
+      <p><b>understandability: </b> The legend and title help make the map more understandable. The color choice is a bit odd, it might be more helpful to make it multiple shades of the same color, such as pink —> dark red in order to emphasize the contrast of consumption rates between countries. Additionally, it says that it’s the rates across the world, but only shows countries in the Americas. Not a big deal since it is a sketch, though. </p>
+      <p><b>achievability: </b> This will be very achieveable using the Plotly chloropleth map. </p>
+      <p><b>signifiers: </b>Not many signifiers showing the user what is possible on the map.</p>
+      <p><b>mappings: </b> This sketch shows the relationship between alcohol consumption and geographic location. </p>
+      <p><b>perceptability: </b>This might be a little hard to see if one is visually impaired. We are planning on using colors and maybe adding patterns in order to help those who are visually impaired with color blindness.  </p>
+      <br></br>
+
+
+
+      <h3>Elizabeth's micro-summary</h3>
+      <img src="images/elizabeth_micro.jpeg">
+      <br></br>
+      <p><b>understandability: </b>The legend + map title adds to the understandability of the sktch. However, the title says Alcohol consumptiton per state, but the legend labels them as percentages, which does not correlate. This takes away from the understanability of the sketch. Additionally, it might be more helpful to adjust the colors so that they are all  shades of the same color. </p>
+      <p><b>achievability: </b>This will be achieveable using Plotly, which can take in data from a JSON or CSV file and depict it on a map/graph of your choosing. In this case a chloropleth map will be used.  </p>
+      <p><b>signifiers: </b> The drawing of the cursor hovering over the state shows that doing so will allow the user to see certain stats from the state, such as drunk driving rates. This can be made more clear by highlighting the state when you hover over it. </p>
+      <p><b>mappings: </b>The sketch depicts the relationship between alcohol consumption, geographic location, and other statistics such as drunk driving rates. </p>
+      <p><b>perceptability: </b>This might be a little hard to see if one is visually impaired. We are planning on using colors and maybe adding patterns in order to help those who are visually impaired with color blindness.  </p>
+      <br></br>
+
+
+
+      <h3>Final design</h3>
+      <img src="images/macro_final.jpeg">
+      <img src="images/micro_final.jpeg">
+      <br></br>
+      <p><b>elements selected and why:</b></p>
+      <p>1. We decided to use Aidan's statistics as they made more sense than Elizabeth’s</p>
+      <p>2. We decided to use Elizabeth’s idea of choosing colors in the same range rather than from all over the color wheel in order to compare and contrast intensity. </p>
+      <p>3. We decided to add Elizabeth’s extra statistics to give a more contextualized understanding to our information</p>
+      <br></br>
+
+      <h2>Build Pipeline</h2>
+      <img src="images/pipeline.png">
+
+      <p>1. Generate 3 ideas, find .csv data </p>
+      <p>2. Create prototypes </p>
+      <p>3. Create final sketch </p>
+      <p>4. Generate website and add to about.html, critque sketches </p>
+      <p>5. Convert data from .csv --> .JSON (generateJSON.js)</p>
+      <p>6. Make skeleton</p>
+      <p>6a. Create macro page (index.ejs)</p>
+      <p>6b. Create micro pages with a for loop (micros.js)</p>
+      <p>6c. Add Navbar</p>
+      <p>7. Generate infographics using Plotly (graph.js)</p>
+      <p>8. Add dynamic information </p>
+      <p>9. CSS! </p>
+
+      <h2>Division of labor</h2>
+      <p>Aidan: draw final sketch, generate JSON data + micropages, do npm pipeline</p>
+      <p>Elizabeth: critique all sketches, generate index.html + about.html, add Navbar + CSS</p>
+
+
+      <br></br>
+      <br></br>
+<%- include ('footer.ejs');  %>

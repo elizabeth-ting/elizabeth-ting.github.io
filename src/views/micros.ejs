@@ -1,0 +1,52 @@
+<%- include('header.ejs'); %>
+<%- include('navbar.ejs'); %>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <h2 style="color: #54278f"><b><i>State: </i><%-data.abbreviated_name%></b></h2>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <%let result;%>
+      <%if (data.usAverage>data.percentage) {result = "a lower binge drinking rate than";}%>
+      <%if (data.usAverage<data.percentage) {result = "a higher binge drinking rate than";}%>
+      <%if (data.usAverage==data.percentage) {result = "the same binge drinking rate as";}%>
+
+      <p>In the state of <%-data.abbreviated_name%>, the binge drinking rate is <%-data.percentage%>%, which constitutes <%-result%>  the United States average of <%-data.usAverage%>%.</p>
+      </div>
+    </div>
+  <div class="container-fluid">
+    <div id="myGraph"></div>
+  </div>
+
+  <script>
+    var graph = [
+    {
+      x: ['State: <%-data.abbreviated_name%>', 'US Average'],
+      y: [<%-data.percentage%>, <%-data.usAverage%>],
+      type: 'bar',
+      text: [<%-data.percentage%>, <%-data.usAverage%>].map(String),
+      width: [.25, .25],
+      textposition: 'auto',
+      hoverinfo: 'none',
+      marker: {
+        color: ['rgba(84, 39, 143, 1)', 'rgba(118, 107, 177, 1)']
+      }
+    }
+    ]
+    var layout = {
+      title: 'Binge Drinking Prevalence in <%-data.abbreviated_name%> vs. USA',
+      yaxis: {
+        title: 'Binge Drinking Population Percentage',
+        gridcolor: "rgba(150, 150, 150, 100)"
+      },
+      paper_bgcolor: "rgba(0,0,0,0)",
+      plot_bgcolor: "rgba(0,0,0,0)"
+  }
+  Plotly.newPlot('myGraph', graph, layout, {staticPlot: true});
+  </script>
+  <br><br><br><br><br>
+
+<%- include ('footer.ejs');  %>
